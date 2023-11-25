@@ -99,6 +99,7 @@ li {
 
 .description {
     display: flex;
+    flex-direction: column;
     /* background-color: blue; */
     height: 50px;
     align-items: center;
