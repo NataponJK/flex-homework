@@ -18,6 +18,7 @@ body {font-family: 'DM Sans', sans-serif;
     background-color: teal;
     align-items: center;
     gap: 15px;
+    color: white;
 }
 
 input {
@@ -43,20 +44,31 @@ li {
     list-style:none ;
 }
 
-/* .nav-items {
-    background-color: aquamarine;
-} */
+.nav-items {
+    color:white
+}
+.nav-items:hover {
+    text-decoration: underline;
+}
 
 /* Container */
+
+.storage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    gap: 20px;
+    margin-top: 10px;
+    padding-left: 7%;
+    padding-right: 10px;
+}
 
 .drop-down {
     /* background-color: orange; */
     display: flex;
-    justify-content: flex-end;
     height: 25px;
     gap: 10px;
-    margin-top: 10px;
-    padding-right: 10 px;
 }
 
 /* Products Content */
@@ -91,6 +103,7 @@ li {
     height: 50px;
     align-items: center;
 }
+
 
 /* Media Queries */
 

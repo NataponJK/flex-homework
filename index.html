@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS-Flex Exercise: Black and White Film Shop</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="search-bar">
             <p>Keywords</p>
-            <input type="text" />
+            <input type="text" placeholder="Search..." name="search"/>
             <button> Enter </button>
         </div>
     </header>
     <main>
         <section class="container">
-            <div class="drop-down">
-                <select class="filter">
-                    <option value="">All Film</option>
-                    <option value="bnw">Black & White Film</option>
+            <div class="storage">
+                <p>All Films</p>
+                <div class="drop-down">
+                    <select class="filter">
+                        <option value="">All Film</option>
+                        <option value="bnw">Black & White Film</option>
                     <option value="33">35mm Film</option>
                     <option value="120">120mm Film</option>
                     <option value="slide">Slide Film</option>
@@ -30,8 +32,9 @@
                     <option value="low-price">Lowest Price</option>
                     <option value="high-price">Higest Price</option>
                 </select>
+                </div>
             </div>
-            <div class="contents">
+                <div class="contents">
                 <div class="products-box">
                     <img class="products-pic" src="img/kentmere-35-100.jpg" alt="Kentmere 35mm ISO-100"/>
                     <div class="description">
@@ -86,6 +89,7 @@
                         <p>Ilford HP5 Plus 400</p>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     </main>
